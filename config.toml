@@ -46,7 +46,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.pkgs.item]]
       name = "tsibble"
-      summary = "Temporal data manipulation"
+      summary = "Temporal data frames and tools"
       img = "tsibble.png"
       alt = "tsibble-hex"
       urls = [
@@ -57,7 +57,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.pkgs.item]]
       name = "fable"
-      summary = "Modelling and forecasting"
+      summary = "Tidy forecasting"
       img = "fable.png"
       alt = "fable-hex"
       urls = [
