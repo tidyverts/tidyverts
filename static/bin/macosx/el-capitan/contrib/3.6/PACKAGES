@@ -1,0 +1,16 @@
+Package: fable
+Version: 0.1.0
+Depends: R (>= 3.4.0), fabletools
+Imports: Rcpp (>= 0.11.0), rlang (>= 0.2.0), stats, dplyr (>= 0.8.0), tsibble (>= 0.8.0), tidyr
+LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.3)
+Suggests: covr, feasts, forecast, knitr, nnet, rmarkdown, spelling, testthat, tsibbledata
+License: GPL-3
+MD5sum: 72fe91fb15ecace57f86182b852b5557
+
+Package: feasts
+Version: 0.1.0
+Depends: R (>= 3.5.0), fabletools
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, grid, seasonal, urca, fracdiff, fable, ForeCA
+License: GPL-3
+MD5sum: f9c998991f24f670b1b64fc980248eab
