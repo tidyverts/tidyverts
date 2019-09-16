@@ -16,3 +16,10 @@ Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, grid
 License: GPL-3
 MD5sum: eb72def876d39be9ee47e9f96697bd41
 NeedsCompilation: no
+
+Package: nswgroundwater
+Version: 0.0.0.9000
+Imports: rlang (>= 0.2.0), tsibble, dygraphs, dplyr
+License: GPL-3
+MD5sum: a4a253aee454f75b4ac6ad9571729a1b
+NeedsCompilation: no
