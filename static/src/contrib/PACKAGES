@@ -8,13 +8,24 @@ License: GPL-3
 MD5sum: d673f9d0decd22a1db3a105512fdb6a8
 NeedsCompilation: yes
 
-Package: feasts
-Version: 0.1.0
-Depends: R (>= 3.5.0), fabletools
-Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales
-Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, grid, seasonal, urca, fracdiff, fable, ForeCA
+Package: fabletools
+Version: 0.1.2
+Depends: R (>= 3.1.3)
+Imports: tsibble (>= 0.8.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.2.0), stats, dplyr (>= 0.8.0), tidyr (>= 0.8.3), generics, R6,
+                 utils, vctrs
+Suggests: colorspace, covr, crayon, digest, fable, future.apply, knitr, methods, pillar (>= 1.0.1), feasts, rmarkdown, scales, spelling, testthat,
+                 tsibbledata, lubridate, SparseM
 License: GPL-3
-MD5sum: eb72def876d39be9ee47e9f96697bd41
+MD5sum: b274d417eca987499f848c23fc54d828
+NeedsCompilation: no
+
+Package: feasts
+Version: 0.1.2
+Depends: R (>= 3.5.0), fabletools
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales, lubridate, grid
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, seasonal, urca, fracdiff, fable, ForeCA
+License: GPL-3
+MD5sum: 1f1e520341f04c5ed7adb4aa20b0b41b
 NeedsCompilation: no
 
 Package: nswgroundwater
