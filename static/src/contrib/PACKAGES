@@ -25,7 +25,7 @@ Imports: tsibble (>= 0.8.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, 
 Suggests: colorspace, covr, crayon, digest, fable, future.apply, knitr, methods, pillar (>= 1.0.1), feasts (>= 0.1.2), rmarkdown, scales, spelling, testthat,
                  tsibbledata, lubridate, SparseM
 License: GPL-3
-MD5sum: 72f097637bbcbc4f4d13190d8c35833e
+MD5sum: bf480f95d8470cfe119fd8a01bb56a22
 NeedsCompilation: no
 
 Package: feasts
