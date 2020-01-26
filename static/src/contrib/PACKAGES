@@ -8,15 +8,24 @@ License: GPL-3
 MD5sum: d673f9d0decd22a1db3a105512fdb6a8
 NeedsCompilation: yes
 
+Package: fable.prophet
+Version: 0.1.0
+Depends: R (>= 3.1.3), Rcpp, fabletools
+Imports: rlang, tsibble, lubridate, prophet, dplyr (>= 0.8.0)
+Suggests: tsibbledata, testthat, ggplot2, covr, knitr, rmarkdown
+License: GPL-3
+MD5sum: c1726ddd88a2b2a628c6674f04920f82
+NeedsCompilation: no
+
 Package: fabletools
 Version: 0.1.2
 Depends: R (>= 3.1.3)
 Imports: tsibble (>= 0.8.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.2.0), stats, dplyr (>= 0.8.0), tidyr (>= 0.8.3), generics, R6,
                  utils, vctrs
-Suggests: colorspace, covr, crayon, digest, fable, future.apply, knitr, methods, pillar (>= 1.0.1), feasts, rmarkdown, scales, spelling, testthat,
+Suggests: colorspace, covr, crayon, digest, fable, future.apply, knitr, methods, pillar (>= 1.0.1), feasts (>= 0.1.2), rmarkdown, scales, spelling, testthat,
                  tsibbledata, lubridate, SparseM
 License: GPL-3
-MD5sum: b274d417eca987499f848c23fc54d828
+MD5sum: 72f097637bbcbc4f4d13190d8c35833e
 NeedsCompilation: no
 
 Package: feasts
