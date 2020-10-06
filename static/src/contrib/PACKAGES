@@ -67,6 +67,16 @@ License: GPL-3
 MD5sum: 1f1e520341f04c5ed7adb4aa20b0b41b
 NeedsCompilation: no
 
+Package: feasts
+Version: 0.1.5.9000
+Depends: R (>= 3.5.0), fabletools (>= 0.2.0)
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.9.0), ggplot2 (>= 3.0.0), dplyr (>= 1.0.0), tidyr (>= 0.8.3), scales (>= 1.1.0), vctrs, lubridate,
+                 grid, slider, utils, lifecycle
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, seasonal, urca, fracdiff, fable
+License: GPL-3
+MD5sum: 90d124aec0b7be9585fc67f4ecbf03b1
+NeedsCompilation: no
+
 Package: nswgroundwater
 Version: 0.0.0.9000
 Depends: R (>= 2.10)
