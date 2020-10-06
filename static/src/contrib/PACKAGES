@@ -38,6 +38,17 @@ License: GPL-3
 MD5sum: bf480f95d8470cfe119fd8a01bb56a22
 NeedsCompilation: no
 
+Package: fabletools
+Version: 0.2.1.9000
+Depends: R (>= 3.1.3)
+Imports: tsibble (>= 0.9.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.4.5), stats, dplyr (>= 1.0.0), tidyr (>= 1.1.0), generics, R6,
+                 utils, vctrs (>= 0.2.2), distributional, progressr, lifecycle
+Suggests: covr, crayon, fable (>= 0.2.0), future.apply, knitr, pillar (>= 1.0.1), feasts (>= 0.1.2), rmarkdown, spelling, testthat, tsibbledata (>= 0.2.0),
+                 lubridate, Matrix
+License: GPL-3
+MD5sum: 710cc3f180df62de22a1d2fe53dacdcd
+NeedsCompilation: no
+
 Package: feasts
 Version: 0.1.0
 Depends: R (>= 3.5.0), fabletools
