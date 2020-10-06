@@ -29,6 +29,15 @@ MD5sum: bf480f95d8470cfe119fd8a01bb56a22
 NeedsCompilation: no
 
 Package: feasts
+Version: 0.1.0
+Depends: R (>= 3.5.0), fabletools
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, grid, seasonal, urca, fracdiff, fable, ForeCA
+License: GPL-3
+MD5sum: eb72def876d39be9ee47e9f96697bd41
+NeedsCompilation: no
+
+Package: feasts
 Version: 0.1.2
 Depends: R (>= 3.5.0), fabletools
 Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales, lubridate, grid
@@ -39,7 +48,16 @@ NeedsCompilation: no
 
 Package: nswgroundwater
 Version: 0.0.0.9000
+Depends: R (>= 2.10)
 Imports: rlang (>= 0.2.0), tsibble, dygraphs, dplyr
 License: GPL-3
-MD5sum: a4a253aee454f75b4ac6ad9571729a1b
+MD5sum: 19a12bd5fc4914f34330e7bad6db4a46
+NeedsCompilation: no
+
+Package: nswgroundwater
+Version: 0.0.0.9001
+Depends: R (>= 2.10)
+Imports: rlang (>= 0.2.0), tsibble, dygraphs, dplyr
+License: GPL-3
+MD5sum: ff12ac149c2b31819ca0ec2a5833611b
 NeedsCompilation: no
