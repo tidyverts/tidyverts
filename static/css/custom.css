@@ -33,6 +33,9 @@
   display: block;
   margin-bottom: 30px;
 }
+.tile-pkg {
+  margin-bottom: 70px;
+}
 
 .social li a i {
   font-size: 33px;
