@@ -62,7 +62,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       alt = "fable-hex"
       urls = [
         ["icon-social-github", "https://github.com/tidyverts/fable"],
-        ["icon-globe", "https://fable.tidyverts.org"]
+        ["icon-globe", "https://fable.tidyverts.org"],
+        ["icon-puzzle", "https://cran.r-project.org/package=fable"]
       ]
 
     [[params.pkgs.item]]
@@ -72,7 +73,36 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       alt = "feasts-hex"
       urls = [
         ["icon-social-github", "https://github.com/tidyverts/feasts"],
-        ["icon-globe", "https://feasts.tidyverts.org"]
+        ["icon-globe", "https://feasts.tidyverts.org"],
+        ["icon-puzzle", "https://cran.r-project.org/package=feasts"]
+      ]
+      
+    [[params.pkgs.item]]
+      name = "tsibbledata"
+      summary = "Diverse datasets for tsibble"
+      img = "tsibbledata.png"
+      alt = "tsibbledata-hex"
+      urls = [
+        ["icon-social-github", "https://github.com/tidyverts/tsibbledata"],
+        ["icon-globe", "https://tsibbledata.tidyverts.org"],
+        ["icon-puzzle", "https://cran.r-project.org/package=tsibbledata"]
+      ]
+      
+    [[params.pkgs.item]]
+      name = "fable.prophet"
+      summary = "Interface to prophet forecaster for fable"
+      urls = [
+        ["icon-social-github", "https://github.com/mitchelloharawild/fable.prophet"],
+        ["icon-globe", "http://pkg.mitchelloharawild.com/fable.prophet/"],
+        ["icon-puzzle", "https://cran.r-project.org/package=fable.prophet"]
+      ]
+      
+    [[params.pkgs.item]]
+      name = "tsibbletalk"
+      summary = "Interactive crosstalk graphics for tsibble"
+      urls = [
+        ["icon-social-github", "https://github.com/earowang/tsibbletalk"],
+        ["icon-puzzle", "https://cran.r-project.org/package=tsibbletalk"]
       ]
       
   # Footer section
