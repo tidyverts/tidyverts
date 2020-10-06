@@ -39,7 +39,8 @@ NeedsCompilation: no
 
 Package: nswgroundwater
 Version: 0.0.0.9000
+Depends: R (>= 2.10)
 Imports: rlang (>= 0.2.0), tsibble, dygraphs, dplyr
 License: GPL-3
-MD5sum: a4a253aee454f75b4ac6ad9571729a1b
+MD5sum: 19a12bd5fc4914f34330e7bad6db4a46
 NeedsCompilation: no
