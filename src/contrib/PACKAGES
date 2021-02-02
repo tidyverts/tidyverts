@@ -1,3 +1,12 @@
+Package: distributional
+Version: 0.2.2
+Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, ellipsis, stats, numDeriv, ggplot2, scales,
+           farver, digest, utils, lifecycle
+Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar, ggdist
+License: GPL-3
+MD5sum: 97967ac4ddf5f4b93794cf396240ddbb
+NeedsCompilation: no
+
 Package: fable
 Version: 0.1.0
 Depends: R (>= 3.4.0), fabletools
@@ -11,9 +20,11 @@ NeedsCompilation: yes
 Package: fable
 Version: 0.2.1.9000
 Depends: R (>= 3.4.0), fabletools (>= 0.2.0)
-Imports: Rcpp (>= 0.11.0), rlang (>= 0.4.6), stats, dplyr (>= 1.0.0), tsibble (>= 0.9.0), tibble, tidyr, utils, distributional
+Imports: Rcpp (>= 0.11.0), rlang (>= 0.4.6), stats, dplyr (>= 1.0.0), tsibble (>= 0.9.0), tibble,
+           tidyr, utils, distributional
 LinkingTo: Rcpp (>= 0.11.0)
-Suggests: covr, feasts, forecast, knitr, nnet, rmarkdown, spelling, testthat, tsibbledata (>= 0.2.0)
+Suggests: covr, feasts, forecast, knitr, nnet, rmarkdown, spelling, testthat, tsibbledata (>=
+           0.2.0)
 License: GPL-3
 MD5sum: 427d431d2810937ca77bb3bf0cc31ad7
 NeedsCompilation: yes
@@ -39,10 +50,11 @@ NeedsCompilation: no
 Package: fabletools
 Version: 0.1.2
 Depends: R (>= 3.1.3)
-Imports: tsibble (>= 0.8.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.2.0), stats, dplyr (>= 0.8.0), tidyr (>= 0.8.3), generics, R6,
-                 utils, vctrs
-Suggests: colorspace, covr, crayon, digest, fable, future.apply, knitr, methods, pillar (>= 1.0.1), feasts (>= 0.1.2), rmarkdown, scales, spelling, testthat,
-                 tsibbledata, lubridate, SparseM
+Imports: tsibble (>= 0.8.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.2.0),
+           stats, dplyr (>= 0.8.0), tidyr (>= 0.8.3), generics, R6, utils, vctrs
+Suggests: colorspace, covr, crayon, digest, fable, future.apply, knitr, methods, pillar (>=
+           1.0.1), feasts (>= 0.1.2), rmarkdown, scales, spelling, testthat, tsibbledata,
+           lubridate, SparseM
 License: GPL-3
 MD5sum: bf480f95d8470cfe119fd8a01bb56a22
 NeedsCompilation: no
@@ -50,10 +62,11 @@ NeedsCompilation: no
 Package: fabletools
 Version: 0.2.1.9000
 Depends: R (>= 3.1.3)
-Imports: tsibble (>= 0.9.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.4.5), stats, dplyr (>= 1.0.0), tidyr (>= 1.1.0), generics, R6,
-                 utils, vctrs (>= 0.2.2), distributional, progressr, lifecycle
-Suggests: covr, crayon, fable (>= 0.2.0), future.apply, knitr, pillar (>= 1.0.1), feasts (>= 0.1.2), rmarkdown, spelling, testthat, tsibbledata (>= 0.2.0),
-                 lubridate, Matrix
+Imports: tsibble (>= 0.9.0), tibble (>= 1.4.1), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.4.5),
+           stats, dplyr (>= 1.0.0), tidyr (>= 1.1.0), generics, R6, utils, vctrs (>= 0.2.2),
+           distributional, progressr, lifecycle
+Suggests: covr, crayon, fable (>= 0.2.0), future.apply, knitr, pillar (>= 1.0.1), feasts (>=
+           0.1.2), rmarkdown, spelling, testthat, tsibbledata (>= 0.2.0), lubridate, Matrix
 License: GPL-3
 MD5sum: 710cc3f180df62de22a1d2fe53dacdcd
 NeedsCompilation: no
@@ -61,8 +74,10 @@ NeedsCompilation: no
 Package: feasts
 Version: 0.1.0
 Depends: R (>= 3.5.0), fabletools
-Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales
-Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, grid, seasonal, urca, fracdiff, fable, ForeCA
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>=
+           0.8.0), tidyr (>= 0.8.3), scales
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, grid, seasonal, urca,
+           fracdiff, fable, ForeCA
 License: GPL-3
 MD5sum: eb72def876d39be9ee47e9f96697bd41
 NeedsCompilation: no
@@ -70,8 +85,10 @@ NeedsCompilation: no
 Package: feasts
 Version: 0.1.2
 Depends: R (>= 3.5.0), fabletools
-Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>= 0.8.0), tidyr (>= 0.8.3), scales, lubridate, grid
-Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, seasonal, urca, fracdiff, fable, ForeCA
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), dplyr (>=
+           0.8.0), tidyr (>= 0.8.3), scales, lubridate, grid
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, seasonal, urca,
+           fracdiff, fable, ForeCA
 License: GPL-3
 MD5sum: 1f1e520341f04c5ed7adb4aa20b0b41b
 NeedsCompilation: no
@@ -79,9 +96,11 @@ NeedsCompilation: no
 Package: feasts
 Version: 0.1.5.9000
 Depends: R (>= 3.5.0), fabletools (>= 0.2.0)
-Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.9.0), ggplot2 (>= 3.0.0), dplyr (>= 1.0.0), tidyr (>= 0.8.3), scales (>= 1.1.0), vctrs, lubridate,
-                 grid, slider, utils, lifecycle
-Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, seasonal, urca, fracdiff, fable
+Imports: rlang (>= 0.2.0), tibble (>= 1.4.1), tsibble (>= 0.9.0), ggplot2 (>= 3.0.0), dplyr (>=
+           1.0.0), tidyr (>= 0.8.3), scales (>= 1.1.0), vctrs, lubridate, grid, slider, utils,
+           lifecycle
+Suggests: tsibbledata, pillar (>= 1.0.1), knitr, rmarkdown, testthat, covr, seasonal, urca,
+           fracdiff, fable
 License: GPL-3
 MD5sum: 90d124aec0b7be9585fc67f4ecbf03b1
 NeedsCompilation: no
