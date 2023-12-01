@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
-  
+
   custom_css = ["css/custom.css"]
 
   # Meta
@@ -22,7 +22,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -34,7 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     title = "Tidy tools for time series."
@@ -76,7 +76,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-globe", "https://feasts.tidyverts.org"],
         ["icon-puzzle", "https://cran.r-project.org/package=feasts"]
       ]
-      
+
     [[params.pkgs.item]]
       name = "tsibbledata"
       summary = "Diverse datasets for tsibble"
@@ -87,7 +87,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-globe", "https://tsibbledata.tidyverts.org"],
         ["icon-puzzle", "https://cran.r-project.org/package=tsibbledata"]
       ]
-      
+
     [[params.pkgs.item]]
       name = "fable.prophet"
       summary = "Interface to prophet forecaster for fable"
@@ -96,7 +96,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-globe", "http://pkg.mitchelloharawild.com/fable.prophet/"],
         ["icon-puzzle", "https://cran.r-project.org/package=fable.prophet"]
       ]
-      
+
+    [[params.pkgs.item]]
+      name = "fable.binary"
+      summary = "Forecasting binary time series"
+      urls = [
+        ["icon-social-github", "https://github.com/tidyverts/fable.binary"],
+        ["icon-globe", "http://tidyverts.github.io/fable.binary/"],
+      ]
+
     [[params.pkgs.item]]
       name = "tsibbletalk"
       summary = "Interactive crosstalk graphics for tsibble"
@@ -104,7 +112,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-social-github", "https://github.com/earowang/tsibbletalk"],
         ["icon-puzzle", "https://cran.r-project.org/package=tsibbletalk"]
       ]
-      
+
   # Footer section
   [params.footer]
     enable = false
